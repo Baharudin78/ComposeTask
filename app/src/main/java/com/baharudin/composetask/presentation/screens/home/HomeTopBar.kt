@@ -49,7 +49,7 @@ fun HomeTopBar(
 fun showMessage(context: Context) {
     val browserIntent = Intent(
         Intent.ACTION_VIEW,
-        Uri.parse("https://github.com/Farhandroid/AndroidCleanArchitecture")
+        Uri.parse("https://github.com/Baharudin78/ComposeTask.git")
     )
     ContextCompat.startActivity(context, browserIntent, null)
 }
